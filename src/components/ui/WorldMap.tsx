@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import React, { useEffect, useRef } from 'react';
 import L from 'leaflet';
@@ -27,7 +27,8 @@ interface WorldMapProps {
   contacts?: Contact[];
 }
 
-export function WorldMap({ className, contacts = [] }: WorldMapProps) {
+//export function WorldMap({ className, contacts = [] }: WorldMapProps) {
+export default function WorldMap({ className = "", contacts = [] }: WorldMapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
 
