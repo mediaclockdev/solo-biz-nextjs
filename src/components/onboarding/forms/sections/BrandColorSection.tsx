@@ -21,7 +21,7 @@ export function BrandColorSection({ card, onUpdate }: FormComponentProps) {
 
   return (
     <div className="space-y-3">
-      <Label className="text-sm font-medium text-foreground">Brand Color</Label>
+      <Label className="text-sm font-medium text-foreground">Brand Color11</Label>
       <div className="flex items-center gap-3">
         {/* Color Picker Input */}
         <input
