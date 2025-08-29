@@ -73,14 +73,27 @@ export const generateVCard = (card: BusinessCard): string => {
 };
 
 export const defaultBrandColors = [
-  '#4299e1', // Blue
-  '#48bb78', // Green
-  '#ed8936', // Orange
-  '#9f7aea', // Purple
-  '#38b2ac', // Teal
-  '#ec4899', // Pink
-  '#ecc94b', // Yellow
-  '#f56565', // Red
+  // '#4299e1', // Blue
+  // '#48bb78', // Green
+  // '#ed8936', // Orange
+  // '#9f7aea', // Purple
+  // '#38b2ac', // Teal
+  // '#ec4899', // Pink
+  // '#ecc94b', // Yellow
+  // '#f56565', // Red
+
+     "#F95F5F",
+    "#FF8A4C",
+    "#FFD93D",
+    "#B87D4B",
+    "#4CD964",
+    "#4ECDC4",
+    "#4299E1",
+    "#5856D6",
+    "#AF52DE",
+    "#FF2D55",
+    "#2C3E50",
+    "#8E8E93",
 ];
 
 export const createInitialCard = (): BusinessCard => ({
@@ -89,7 +102,7 @@ export const createInitialCard = (): BusinessCard => ({
   coverImage: '',
   companyLogo: '',
   cardImage: undefined,
-  brandColor: '#4299e1',
+  brandColor: '#F95F5F',
   templateType: 'traditional',
   cardLayout: 'portrait',
   profile: {

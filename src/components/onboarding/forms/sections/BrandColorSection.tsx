@@ -34,7 +34,7 @@ export function BrandColorSection({ card, onUpdate }: FormComponentProps) {
         {/* Hex Input */}
         <Input
           type="text"
-          placeholder="#4299E1"
+          placeholder="#F95F5F"
           value={card.brandColor}
           onChange={(e) => handleInputChange('brandColor', e.target.value)}
           className="w-28 font-mono text-sm flex-shrink-0"
